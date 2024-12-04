@@ -1,0 +1,67 @@
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f8f1; /* Light yellowish background */
+    border: 1px solid #e2dccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f4a259; /* Mango color for header */
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #e2dccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .form-control:focus {
+    border-color: #f4a259;
+    box-shadow: 0 0 0 0.2rem rgba(244, 162, 89, 0.25);
+  }
+  
+  .btn-success {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f4a259; /* Mango color for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-success:hover {
+    background-color: #e8943a; /* Slightly darker mango color */
+  }
+  
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 15px;
+    }
+  }
+  
